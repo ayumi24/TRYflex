@@ -18,6 +18,8 @@
   margin:0 10px;
 }
 
-.header>first-child{
-  margin-right: auto;
+.header>:first-child{
+ margin-right: auto;
 }
+
+.
