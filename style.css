@@ -22,4 +22,23 @@
  margin-right: auto;
 }
 
-.
+.main{
+  display:flex;
+  justify-content:center;
+}
+
+.sidebar{
+  height:50vh;
+  width:300px;
+  background-color:#7fffd4;
+}
+
+.content{
+  background-color:#00b522;
+  max-width:700px;
+  height:50vh;
+  flex-grow:1;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+}
